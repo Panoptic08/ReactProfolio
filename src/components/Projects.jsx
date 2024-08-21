@@ -19,11 +19,13 @@ function Projects() {
                                     className='h-28 w-full rounded-t-xl object-cover'
                                 />
                                 <hr className='border-gray-300' />
-                                <button 
+                               <a href="https://blog-app-r.vercel.app/">
+                               <button 
                                     className='w-28 h-10 bg-blue-200 rounded-xl mt-10 mb-5 text-center block mx-auto hover:bg-blue-300 transition-colors duration-300'
                                 >
                                     Preview
                                 </button>
+                                </a> 
                                 <hr className='border-gray-300' />
                                 <h1 className='text-xl text-black ml-5 text-center mb-10 px-4'>
                                     React and Appwrite <br /> Create, Write, Edit, and Delete
