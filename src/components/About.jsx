@@ -70,7 +70,7 @@ Building innovative solutions that address real-world challenges is what drives 
 
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3SI2TYjh-iljA6-kojopDOvuigkh_ntLuDw&s" alt="" className='h-10 mr-5 rounded-xl'/>
           <p className='text-gray-300 text-xl'>
-            My podcast collection:   <a href="" className='text-blue-400
+            My pod collection:   <a href="" className='text-blue-400
             '>Soon!</a>
           </p>
           
@@ -78,13 +78,23 @@ Building innovative solutions that address real-world challenges is what drives 
 
           <div className='flex mt-8 mb-5 '>
 
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZWer7p366pMvvP2-99_hQ1KUPb8w-1PXDZQ&s" alt="" className='h-10 mr-5 rounded-xl'/>
+            <img src="https://i.pinimg.com/736x/36/8c/96/368c967df4cdb8e288b8cf19eed82707.jpg" alt="" className='h-10 mr-5 rounded-xl'/>
           <p className='text-gray-300 text-xl'>
-            I rate movies :   <a href="" className='text-blue-400
+            Learn with me :   <a href="" className='text-blue-400
             '>Soon!</a>
           </p>
           
           </div>
+
+          <div className='flex mt-8 mb-5 '>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZWer7p366pMvvP2-99_hQ1KUPb8w-1PXDZQ&s" alt="" className='h-10 mr-5 rounded-xl'/>
+<p className='text-gray-300 text-xl'>
+I rate movies :   <a href="" className='text-blue-400
+'>Soon!</a>
+</p>
+
+</div>
 
         </div>
 
@@ -101,7 +111,12 @@ Building innovative solutions that address real-world challenges is what drives 
           {/* <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="" className='h-12 rounded-full hover:scale-125 transition-transform duration-300  mr-10'/>
           <img src="https://img.freepik.com/premium-vector/twitter-new-logo-twitter-icons-new-twitter-logo-x-2023_929078-218.jpg?semt=ais_hybrid" alt="" className='h-12 hover:scale-125 transition-transform duration-300  mr-10'/>
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" alt="" className='h-12 hover:scale-125 transition-transform duration-300  mr-10'/> */}
+      
+      
+      
         </div> 
+
+        
         </div>
 
         

@@ -13,41 +13,12 @@ function Home() {
     const [text, setText] = useState('');
     const [isDeleting, setIsDeleting] = useState(false);
     const [loopNum, setLoopNum] = useState(0);
+
     const words = ['Web and Android Developer', 'CP', 'Communication', 'Leadership'];
-    
-    const typingDelay = 130; 
-    const pauseTime = 2000; 
-    const deletingDelay = 3000 / 10; 
-    const [activeSection, setActiveSection] = useState("");
 
-    const handleSetActive = (section) => {
-        setActiveSection(section);
-        window.history.pushState(null, null, section);
-    };
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const sections = ['#home', '#about', '#projects', '#exp', '#cp', '#contact'];
-            let currentSection = '#home';
-
-            sections.forEach(section => {
-                const element = document.querySelector(section);
-                if (element) {
-                    const rect = element.getBoundingClientRect();
-                    if (rect.top <= window.innerHeight / 2 && rect.bottom > window.innerHeight / 2) {
-                        currentSection = section;
-                    }
-                }
-            });
-
-            setActiveSection(currentSection);
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    const typingDelay = 130;
+    const pauseTime = 2000;
+    const deletingDelay = 3000 / 10;
 
     useEffect(() => {
         const current = loopNum % words.length;
@@ -73,40 +44,28 @@ function Home() {
         <>
             <div id="home" className="mt-2 w-full h-15 rounded p-5 text-white text-xl">
                 <div className="flex text-white fixed" style={{ marginLeft: "57%" }}>
-                    <h1
-                        className={`mr-10 ${activeSection === "#home" ? "text-orange-200 underline" : "hover:text-blue-200"}`}
-                    >
-                        <a href="#home" >Home</a>
+                    <h1 className="mr-10 hover:text-orange-200 hover:underline">
+                        <a href="#home">Home</a>
                     </h1>
-                    <h1
-                        className={`cursor-pointer mr-10 ${activeSection === "#about" ? "text-orange-200 underline" : "hover:text-orange-200"}`}
-                    >
+                    <h1 className="cursor-pointer mr-10 hover:text-orange-200 hover:underline">
                         <a href="#about">About</a>
                     </h1>
-                    <h1
-                        className={`cursor-pointer mr-10 ${activeSection === "#projects" ? "text-orange-200 underline" : "hover:text-orange-200"}`}
-                    >
-                        <a href="#projects" >Portfolio</a>
+                    <h1 className="cursor-pointer mr-10 hover:text-orange-200 hover:underline">
+                        <a href="#projects">Portfolio</a>
                     </h1>
-                    <h1
-                        className={`cursor-pointer mr-10 ${activeSection === "#exp" ? "text-orange-200 underline" : "hover:text-orange-200"}`}
-                    >
-                        <a href="#exp" >Experiences</a>
+                    <h1 className="cursor-pointer mr-10 hover:text-orange-200 hover:underline">
+                        <a href="#exp">Experiences</a>
                     </h1>
-                    <h1
-                        className={`cursor-pointer mr-10 ${activeSection === "#cp" ? "text-orange-200 underline" : "hover:text-orange-200"}`}
-                    >
-                        <a href="#cp" >CP</a>
+                    <h1 className="cursor-pointer mr-10 hover:text-orange-200 hover:underline">
+                        <a href="#cp">CP</a>
                     </h1>
-                    <h1
-                        className={`cursor-pointer mr-10 ${activeSection === "#contact" ? "text-orange-200 underline" : "hover:text-orange-200"}`}
-                    >
+                    <h1 className="cursor-pointer mr-10 hover:text-orange-200 hover:underline">
                         <a href="#contact">Contact</a>
                     </h1>
                 </div>
             </div>
 
-            <img src={dp} alt="" className='h-10 rounded-full' style={{ marginTop: "-2%" }} />
+            <img src={dp} alt="" className="h-10 rounded-full" style={{ marginTop: "-2%" }} />
             <div className="flex mt-20 mb-10" style={{ marginLeft: "35%" }}>
                 <h1 className="text-4xl text-center text-white mr-5">Skills->  </h1>
                 <h1 className="text-4xl text-center text-white">
