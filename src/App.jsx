@@ -1,11 +1,12 @@
 import React from 'react'
-import { Home } from './components'
+import { Home, Learnwithme } from './components'
 
 function App() {
 
   return (
     <>
-    <Home />
+      <Home />
+  
     </>
   )
 }

@@ -1,5 +1,8 @@
 import React from 'react';
 import dp from '../images/dp.jpg';
+import { Link, Outlet } from 'react-router-dom';
+
+
 
 const frameworks = [
   { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSTVjZgtLF2vqZV3Nh6VdLV5HEZ3xOyVCRuw&s", alt: "HTML" },
@@ -79,9 +82,12 @@ Building innovative solutions that address real-world challenges is what drives 
           <div className='flex mt-8 mb-5 '>
 
             <img src="https://i.pinimg.com/736x/36/8c/96/368c967df4cdb8e288b8cf19eed82707.jpg" alt="" className='h-10 mr-5 rounded-xl'/>
-          <p className='text-gray-300 text-xl'>
-            Learn with me :   <a href="" className='text-blue-400
-            '>Soon!</a>
+          <p className='text-gray-300 text-xl flex ' >
+            Learn with me :   <a href="#learnwithme">
+      <h1 className='text-blue-400 ml-2 text-2xl hover:scale-110 hover:text-orange-200'>Learn</h1>
+            </a>
+
+    
           </p>
           
           </div>

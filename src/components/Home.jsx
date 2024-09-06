@@ -8,6 +8,7 @@ import About from './About';
 import Exp from './Exp';
 import Cp from './cp';
 import Contactme from './contactme';
+import Learnwithme from './learnwithme';
 
 function Home() {
     const [text, setText] = useState('');
