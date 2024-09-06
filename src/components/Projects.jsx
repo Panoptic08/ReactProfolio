@@ -27,7 +27,7 @@ function Projects() {
                                
                                 <hr className='border-gray-300' />
                                 <h1 className='text-l text-black  text-center mt-5 px-4'>
-                                    A free and Open Source <b> "Solution" </b> <br /> to simply the Freelancing work in India
+                                A free and open-source Solution to simplify freelancing work in India.
                                     
                                 </h1>
                                 <div className='h-5'></div>
@@ -65,7 +65,7 @@ function Projects() {
                                
                                 <hr className='border-gray-300' />
                                 <h1 className='text-l text-black text-center  mt-5  px-4'>
-                                    A project built using Python Stramlit, for connecting the shopkeepers with the best suppliers, Worked on the dataset of over 10,000 Shopkeepers. (ongoing)
+                                An ongoing project built with Python Streamlit, aimed at connecting shopkeepers with the best suppliers. Working with a dataset of over 10,000 shopkeepers.
                                 </h1>
 
                                 <div className='h-10'></div>
@@ -105,7 +105,7 @@ function Projects() {
                                 
                                 <hr className='border-gray-300' />
                                 <h1 className='text-l text-black ml-5 text-center mt-5 px-4'>
-                                    Dholo A laundry management System, <br />for both washer and dropper.
+                                Dholo: A laundry management system designed for both washers and droppers.
                                 </h1>
                                 <div className='flex justify-evenly'>
                                 <a href="https://dholo.netlify.app/">
@@ -146,8 +146,8 @@ function Projects() {
                                 <hr className='border-gray-300' />
                                
                                 <hr className='border-gray-300' />
-                                <h1 className='text-xl text-black ml-5 text-center mt-10 px-4'>
-                                    React and Appwrite <br /> Create, Write, Edit, and Delete
+                                <h1 className='text-l text-black ml-5 text-center mt-10 px-4'>
+                                Using React and Appwrite to create, read, edit, and delete data.
                                 </h1>
                             </div>
                             <div className='flex justify-evenly'>
@@ -185,8 +185,8 @@ function Projects() {
                                
                                
                                 <hr className='border-gray-300' />
-                                <h1 className='text-xl text-black ml-5 text-center mt-10  px-4'>
-                                    Get you GitHUb Stats.
+                                <h1 className='text-l text-black ml-5 text-center mt-10  px-4'>
+                                Get your GitHub stats.
                                 </h1>
                             </div>
                             <div className='flex justify-evenly'>
